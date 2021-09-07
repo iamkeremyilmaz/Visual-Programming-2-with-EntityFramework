@@ -1,0 +1,15 @@
+﻿<Window x:Class="visualprogfinall.main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:visualprogfinall"
+        mc:Ignorable="d"
+        Title="main" Height="450" Width="800">
+    <Grid Background="#FFE19090">
+        <TextBox HorizontalAlignment="Left" Height="51" Margin="63,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" TextChanged="TextBox_TextChanged" FontSize="22" FontStyle="Italic" FontWeight="Bold" FontFamily="Segoe Script" TextDecorations="{x:Null}" Text="             CHOSE YOUR VEHİCLE TYPE"/>
+        <Button Content="MUSCLE CAR" HorizontalAlignment="Left" Height="50" Margin="126,136,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click" FontSize="20"/>
+        <Button Content="SPORT CAR" HorizontalAlignment="Left" Height="50" Margin="325,136,0,0" VerticalAlignment="Top" Width="137" RenderTransformOrigin="0.976,0.29" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="SUV" HorizontalAlignment="Left" Height="50" Margin="544,136,0,0" VerticalAlignment="Top" Width="114" FontSize="20" Click="Button_Click_2"/>
+    </Grid>
+</Window>
